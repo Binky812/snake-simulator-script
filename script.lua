@@ -46,7 +46,7 @@ local function runTeleportScript()
             local parts = workspace:GetDescendants()
             for _, part in ipairs(parts) do
                 if not toggle then break end 
-                if part:IsA("BasePart") and part.Name == "30" and not isTooCloseToPlayers(part) then
+                if part:IsA("BasePart") and (part.Name == "11" or part.Name == "30") and not isTooCloseToPlayers(part) then
                     character:SetPrimaryPartCFrame(part.CFrame)
                     wait(0.1) 
                 end
