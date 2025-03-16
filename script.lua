@@ -2,7 +2,7 @@
 
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
-local safeDistance = 180 
+local safeDistance = 100 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
